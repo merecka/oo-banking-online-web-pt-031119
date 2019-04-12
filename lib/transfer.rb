@@ -12,9 +12,8 @@ class Transfer
 
   end
 
-  binding.pry
   def valid?
-
+    binding.pry
   end
 
 end
