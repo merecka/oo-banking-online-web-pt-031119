@@ -13,6 +13,9 @@ class Transfer
   end
 
   def valid?
+    self.sender
+    self.receiver
+    
     binding.pry
   end
 
