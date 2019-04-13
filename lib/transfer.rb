@@ -26,8 +26,8 @@ class Transfer
       self.status = "complete"
     #  binding.pry
     else
-      "Transaction rejected. Please check your account balance."
       self.status = "rejected"
+      "Transaction rejected. Please check your account balance."
     end
   end
 
