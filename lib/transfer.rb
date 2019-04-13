@@ -16,7 +16,7 @@ class Transfer
     self.sender
     self.receiver
 
-#    binding.pry
+    binding.pry
   end
 
 end
