@@ -17,7 +17,6 @@ class Transfer
     self.receiver != nil
     sender.valid?
     receiver.valid?
-  #  binding.pry
   end
 
 end
