@@ -13,10 +13,10 @@ class Transfer
   end
 
   def valid?
-    self != nil
     self.sender != nil
     self.receiver != nil
-
+    sender.valid?
+    receiver.valid?
   #  binding.pry
   end
 
