@@ -24,11 +24,14 @@ class Transfer
       self.sender.balance -= self.amount
       self.receiver.balance += self.amount
       self.status = "complete"
-    #  binding.pry
     else
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
     end
+
+  def reverse_transfer
+
+  end
   end
 
 end
